@@ -1,0 +1,26 @@
+{
+    "name": "djs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.25.0",
+        "canvas": "^2.9.0",
+        "common-tags": "^1.8.2",
+        "cron": "^1.8.2",
+        "discord.js": "^13.12.0",
+        "dotenv": "^16.0.3",
+        "glob": "^7.1.7",
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2",
+        "mongoose": "^6.0.2",
+        "pg": "^8.7.1"
+    }
+}

@@ -1,0 +1,28 @@
+CREATE TABLE teamDetails(
+ teamid serial PRIMARY KEY,
+ authorID VARCHAR (20),
+authorName VARCHAR(100),
+teamName VARCHAR(100),
+teamPwd VARCHAR(100),
+	p1Riot VARCHAR(50),
+	p1Disc VARCHAR(50),
+	p2Riot VARCHAR(50),
+	p2Disc VARCHAR(50),
+	p3Riot VARCHAR(50),
+	p3Disc VARCHAR(50),
+	p4Riot VARCHAR(50),
+	p4Disc VARCHAR(50),
+	p5Riot VARCHAR(50),
+	p5Disc VARCHAR(50),
+	p6Riot VARCHAR(50),
+	p6Disc VARCHAR(50),
+	p7Riot VARCHAR(50),
+	p7Disc VARCHAR(50),
+timestamp timestamp default current_timestamp
+);
+
+select * from teamDetails;
+
+truncate teamDetails;
+
+ALTER SEQUENCE teamDetails_teamid_seq RESTART WITH 1;
